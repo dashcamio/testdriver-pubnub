@@ -21,7 +21,8 @@ jobs:
             1. enter 'ian+pubnub@dashcam.io' as the email
             1. enter '2RUlCkG363Nw!' as the password
             1. click 'Log In'
-            1. click 'Apps'
+            1. click 'Never'
+            1. click 'Apps' on the left menu
             1. click 'My First App'
             1. click 'Demo'
             1. copy the publish key
