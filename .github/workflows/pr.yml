@@ -16,10 +16,14 @@ jobs:
         id: testdriver
         with:
           prompt: |
-            1. navigate to boldstart.vc in google chrome
-            1. focus google chrome
-            1. scroll all the way down
-            1. click 'sign up for our newsletter'
-            1. enter 'ian@testdriver.ai'
-            1. press enter
-            1. validate that you see 'Thanks for contacting us!'
+            1. navigate to pubnub.com in google chrome
+            1. click 'login'
+            1. enter 'ian+pubnub@dashcam.io' as the email
+            1. enter '2RUlCkG363Nw!' as the password
+            1. click 'Log In'
+            1. click 'Apps'
+            1. click 'My First App'
+            1. click 'Demo'
+            1. copy the publish key
+            1. open apple notes
+            1. paste the publish key into apple notes
