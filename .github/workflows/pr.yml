@@ -1,0 +1,25 @@
+name: TestDriver.ai
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: "TestDriver"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: dashcamio/testdriver@main
+        id: testdriver
+        with:
+          prompt: |
+            1. navigate to boldstart.vc in google chrome
+            1. focus google chrome
+            1. scroll all the way down
+            1. click 'sign up for our newsletter'
+            1. enter 'ian@testdriver.ai'
+            1. press enter
+            1. validate that you see 'Thanks for contacting us!'
