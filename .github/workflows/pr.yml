@@ -17,14 +17,12 @@ jobs:
         with:
           prompt: |
             1. navigate to pubnub.com in google chrome
-            1. click 'login'
-            1. enter 'ian+pubnub@dashcam.io' as the email
-            1. enter '2RUlCkG363Nw!' as the password
-            1. click 'Log In'
-            1. click 'Never'
-            1. click 'Apps' on the left menu
-            1. click 'My First App'
-            1. click 'Demo'
-            1. copy the publish key by by clicking on the copy icon
-            1. open apple notes
-            1. paste the publish key into apple notes
+            1. click LOGIN
+            1. type email blum.stephen+testdriver.ai@gmail.com
+            1. type password n!4Bfj2T@KMGXGZ
+            1. click LOG IN
+            1. click Apps
+            1. click My First App
+            1. click Demo Keyset
+            1. click Usage & Monitoring
+            1. confirm no usage shows on the charts
